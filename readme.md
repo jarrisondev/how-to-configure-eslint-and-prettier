@@ -44,13 +44,13 @@ I use prettier with a plugin to organize the imports inside the files. To config
 
 
 1. Install the next dependencies:
-   ```js	
-	  npm install -D @ianvs/prettier-plugin-sort-imports prettier
-	
-	  // or
-	
-	  yarn add -D @ianvs/prettier-plugin-sort-imports prettier
-   ```
+```js	
+  npm install -D @ianvs/prettier-plugin-sort-imports prettier
+
+  // or
+
+  yarn add -D @ianvs/prettier-plugin-sort-imports prettier
+```
    
 2.  Create a file with the name **prettier.config.cjs** and add your prettier configuration, the next one is my configuration:
 
