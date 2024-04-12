@@ -12,12 +12,12 @@ npm init @eslint/config
 3. Install with a node package manager the next dependencies:
 ```js
   npm install -D eslint-config-prettier eslint-plugin-prettier
-
-  // or
-
+```
+```js
   yarn add -D eslint-config-prettier eslint-plugin-prettier
 ```
-   
+
+  
 6. In the **extend** property of your **.eslintrc.cjs |  .eslintrc.js |  .eslintrc.json** file, add the **plugin:prettier/recommended**:
 ```
 extends: [..., 'plugin:prettier/recommended'],
@@ -46,9 +46,8 @@ I use prettier with a plugin to organize the imports inside the files. To config
 1. Install the next dependencies:
 ```js	
   npm install -D @ianvs/prettier-plugin-sort-imports prettier
-
-  // or
-
+```
+```js	
   yarn add -D @ianvs/prettier-plugin-sort-imports prettier
 ```
    
