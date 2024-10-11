@@ -15,9 +15,6 @@ npm install -D eslint-config-prettier eslint-plugin-prettier
 # or
 yarn add -D eslint-config-prettier eslint-plugin-prettier
 ```
-```js
-```
-
   
 6. In the **extend** property of your **.eslintrc.cjs |  .eslintrc.js |  .eslintrc.json** file, add the **plugin:prettier/recommended**:
 ```
